@@ -1,5 +1,5 @@
 const express = require('express');
-const os = require('os');
+const os = require('node:os');
 const cors=require('cors');
 const app = express();
 const port = 3000;
